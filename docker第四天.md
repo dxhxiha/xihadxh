@@ -98,7 +98,16 @@ systemctl restart docker
 
 ## 镜像分层：
 
-base镜像：base镜像有两层含义（1.不依赖其他镜像，从scratch扩建 2. 其他景象可以之为基础进行扩展），其实base镜像提供的就是最小安装的linux发行版
+base镜像：base镜像有两层含义
+
+2. ```
+   （1.不依赖其他镜像，从scratch扩建 
+   
+   2. 其他景象可以之为基础进行扩展），
+   3. 其实base镜像提供的就是最小安装的linux发行版
+   ```
+
+   
 
  
 
@@ -112,7 +121,7 @@ base镜像：base镜像有两层含义（1.不依赖其他镜像，从scratch扩
 
 查看镜像分层：
 
-docker history 
+docker history  加 镜像名
 
 
 
